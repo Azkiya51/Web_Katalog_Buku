@@ -1,6 +1,6 @@
 // Semua pemanggilan API dipusatkan di sini (separation of concerns)
 const BASE_URL = 'https://www.googleapis.com/books/v1/volumes'
-const API_KEY = import.meta.env.VITE_GOOGLE_BOOKS_KEY // opsional
+const API_KEY = import.meta.env.VITE_GOOGLE_BOOKS_KEY 
 
 export const PAGE_SIZE = 12
 const MAX_PAGES = 10

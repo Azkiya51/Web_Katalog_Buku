@@ -15,7 +15,6 @@ function validate(values) {
 }
 
 export default function ReviewForm({ onSubmit }) {
-  // Form State (controlled components)
   const [values, setValues] = useState(initialValues)
   const [touched, setTouched] = useState({})
   const [success, setSuccess] = useState(false)

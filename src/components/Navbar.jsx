@@ -3,7 +3,6 @@ import { NavLink, Link } from 'react-router-dom'
 import { useLibrary } from '../context/LibraryContext'
 
 export default function Navbar() {
-  // Local State: buka/tutup menu pada tampilan mobile
   const [open, setOpen] = useState(false)
   const { favorites } = useLibrary()
 
